@@ -1,9 +1,68 @@
 @import url(styles/header.css);
 :root{
---cor-de-fundo: #FFEADB;
---cor-cabecalho: #E4F8FF;
+--cor-de-fundo: hsl(281, 100%, 80%);
+--cor-cabecalho: #ff9ecb;
+color: aliceblue;
 }
 body{
 background-color: var(--cor-de-fundo);
 margin: 0;
 }
+
+.cabecalho{
+    background-color: var(--cor-do-cabecalho);
+    padding: 1em;
+    }
+    .container{
+    display: flex;
+    align-items: center;
+    }
+    .imagem1, .frase1{
+    padding: 1em;
+    width: 20%;
+    }
+    .titulo1, .frase1{
+    display:none;
+    }
+
+
+
+
+    @media  screen and (min-width:820px) {
+        .titulo1, .titulo1--negrito {
+        font-size: 30px;
+    }
+
+.titulo1{
+    font-weight: 400;
+    display: block;
+}
+ }
+ @media screen and (min-width:1024px) {
+    .frase1{
+        padding-left: 5em;
+        font-size: 20px;
+        display: block;
+    }
+ }
+  
+ .lista{
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    color: aliceblue;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border-color: aliceblue;
+    border-width: 30px;
+    border-style: double;
+ }
+ .imagess{
+    width: 40%;
+ }
+
+ .imagem4{
+    width: 40%;
+ }
