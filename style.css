@@ -20,7 +20,7 @@ margin: 0;
     max-width:fit-content;
     min-width: fit-content;
     scrollbar-width: fit-content;
-    width: auto;
+    width: max-content;
     }
     
 
